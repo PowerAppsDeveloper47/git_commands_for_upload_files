@@ -1,0 +1,98 @@
+// git ko hamari files ke bare me batana
+git init
+// gid ke andar all files ko batana 
+git add .
+// git commit me ye batana ki hamne files me kya kya changes kiye he
+git  commit -m "message"
+// git me Pahle se bani baranch me code push karna, Already Exist REPO 
+git push origin branchName
+    ///  or///
+// kis repo me hame code ko push karna he, if I was creating new REPO
+git remote add origin https://github.com/PowerAppsDeveloper47/new_dura.git
+// Us branch me add karna jo exist karti he
+git push -u origin master
+
+
+git branch main
+
+pappu@DurapidSEO MINGW64 ~/OneDrive/Desktop/New folder (main)
+$ git init
+Initialized empty Git repository in C:/Users/pappu/OneDrive/Desktop/New folder/.git/
+
+pappu@DurapidSEO MINGW64 ~/OneDrive/Desktop/New folder (master)
+$ git add .
+warning: in the working copy of 'Logos/asset 11.svg', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Logos/asset 13.svg', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Logos/asset 14.svg', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Logos/asset 15.svg', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Logos/asset 16.svg', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Logos/asset 17.svg', LF will be replaced by CRLF the next time Git touches it
+
+pappu@DurapidSEO MINGW64 ~/OneDrive/Desktop/New folder (master)
+$ git commit -m "commiting durapid project"
+[master (root-commit) fbcd139] commiting durapid project
+ 27 files changed, 782 insertions(+)
+ create mode 100644 Logos/Airtable.png
+ create mode 100644 Logos/Amazon.png
+ create mode 100644 Logos/Asana.png
+ create mode 100644 Logos/Box.png
+ create mode 100644 Logos/D_Logo_blue.png
+ create mode 100644 Logos/D_Logo_white.png
+ create mode 100644 Logos/Google.png
+ create mode 100644 Logos/OP1.jpeg
+ create mode 100644 Logos/OP2.jpeg
+ create mode 100644 Logos/OP3.jpeg
+ create mode 100644 Logos/OP4.jpeg
+ create mode 100644 Logos/Task_Rabbit.png
+ create mode 100644 Logos/asset 11.svg
+ create mode 100644 Logos/asset 13.svg
+ create mode 100644 Logos/asset 14.svg
+ create mode 100644 Logos/asset 15.svg
+ create mode 100644 Logos/asset 16.svg
+ create mode 100644 Logos/asset 17.svg
+ create mode 100644 Logos/bgf.svg
+ create mode 100644 Logos/fe1.png
+ create mode 100644 Logos/fe2.png
+ create mode 100644 Logos/fe3.png
+ create mode 100644 Logos/img1.png
+ create mode 100644 index.html
+ create mode 100644 medque.css
+ create mode 100644 script.js
+ create mode 100644 style.css
+
+pappu@DurapidSEO MINGW64 ~/OneDrive/Desktop/New folder (master)
+$ git remote add origin https://github.com/PowerAppsDeveloper47/new_dura.git
+
+pappu@DurapidSEO MINGW64 ~/OneDrive/Desktop/New folder (master)
+$ git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/PowerAppsDeveloper47/new_dura.git' 
+
+pappu@DurapidSEO MINGW64 ~/OneDrive/Desktop/New folder (master)
+$ git push -u origin master
+Enumerating objects: 30, done.
+Counting objects: 100% (30/30), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (30/30), done.
+Writing objects: 100% (30/30), 1.57 MiB | 1.05 MiB/s, done.
+Total 30 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/PowerAppsDeveloper47/new_dura.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+pappu@DurapidSEO MINGW64 ~/OneDrive/Desktop/New folder (master)
+$ git  branch
+* master
+
+pappu@DurapidSEO MINGW64 ~/OneDrive/Desktop/New folder (master)
+$ git branch main
+
+pappu@DurapidSEO MINGW64 ~/OneDrive/Desktop/New folder (master)
+$ git branch
+  main
+* master
+
+pappu@DurapidSEO MINGW64 ~/OneDrive/Desktop/New folder (master)
+$ git checkout main
+Switched to branch 'main'
